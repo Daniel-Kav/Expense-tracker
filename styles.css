@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #5b9dd2;
+    background: #f8f8f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,5 +46,10 @@ form input.equal{
     width: 145px;
 }
 form input.operator{
-    color: orangered;
+    color: #fff;
+    background-color: orangered;
+}
+footer{
+    display: flex;
+    align-items: center;
 }
