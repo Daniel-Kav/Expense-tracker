@@ -54,7 +54,7 @@ const LandingPage: React.FC = () => {
           </form>
           <p className="mt-4 text-center text-sm text-gray-600">
             Don't have an account?{' '}
-            <a href="#" className="text-[#007bff] hover:text-[#0056b3] hover:underline">
+            <a href="/signup" className="text-[#007bff] hover:text-[#0056b3] hover:underline">
               Sign Up Now
             </a>
           </p>
