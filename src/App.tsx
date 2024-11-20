@@ -9,7 +9,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/signup" element={<SignupPage />} />
-        <Route path="/dashboard/*" element={<DashboardLayout />} />
       </Routes>
       <DashboardLayout>
         <Routes>
